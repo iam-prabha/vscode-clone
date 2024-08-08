@@ -1,0 +1,148 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    text-decoration: none;
+    background: black;
+}
+
+.spilt-sides {
+    margin: 0 15%;
+}
+
+
+.container {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    padding: 0 12px;
+}
+
+.nav-title {
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+
+.nav-list {
+    color: #9ba3b4;
+    padding: 0 12px;
+}
+
+.nav-list:hover {
+    color: white;
+}
+
+.nav-end {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-btn {
+    font-size: medium;
+    font-weight: bold;
+    background-color: #0078d4;
+    color: white;
+    padding: 5px 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar {
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    color: #9ba3b4;
+}
+
+.search-bar-border {
+    border: 1px solid #9ba3b4;
+    border-radius: 4px;
+}
+
+.updates-div {
+    text-align: center;
+}
+
+#banner-link-updates {
+    text-decoration: underline;
+    color: #4daafc;
+}
+
+.updates-div .text-white {
+    color: #9ba3b4;
+}
+
+.text-white {
+    color: white;
+}
+
+.curve-div {
+    border: 0.9 solid #9ba3b4;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: #9ba3b4;
+    font-size: small;
+    font-weight: bold
+}
+
+.main-title {
+    font-size: 4rem;
+}
+
+.wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.download-content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.linux {
+    display: flex;
+    gap: 0.5rem;
+    height: 5rem;
+    width: 500px;
+}
+.btn-download{
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.btn-download, 
+.img,
+.small {
+    font-weight: bold;
+    color: white;
+    background-color: #0078d4;
+    border: none;
+    outline: none;
+}
+
+.screen-mac {
+    width: 800px;
+    border-radius: 12px;
+}
+.alternative-sub-link a{
+    text-decoration: underline;
+    color: #0078d4;
+}
+.alternative-sub-link span{
+    color: gray;
+}
+.terms{
+    font-size:  small;
+    color: #9ba3b4;
+}
+.terms a{
+    color: #0078d4;
+    text-decoration: underline;
+}
+.bg-clr{
+    background-color: none;
+}
