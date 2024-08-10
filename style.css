@@ -8,7 +8,6 @@
     margin: 0 15%;
 }
 
-
 .container {
     height: 58px;
     display: flex;
@@ -16,14 +15,19 @@
     justify-content: space-between;
 }
 
-.nav-logo {
-    padding: 0 12px;
+.nav-start {
+    display: flex;
+    justify-content: flex-start;
+
 }
 
-.nav-title {
-    font-size: large;
+.nav-start .nav-title {
+    padding: 6px;
+    font-size: larger;
     font-weight: bolder;
     color: white;
+    position: relative;
+    bottom: 6.5px;
 }
 
 .nav-list {
@@ -40,6 +44,10 @@
     gap: 1rem;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 .nav-btn {
     font-size: medium;
     font-weight: bold;
@@ -51,6 +59,15 @@
     border-radius: 5px;
 }
 
+.nav-btn:hover {
+    background-color: #0069b9;
+}
+.search-icon{
+    position: relative;
+    left: 0.5rem;
+    top: 0.2rem;
+    cursor: pointer;
+}
 .search-bar {
     padding: 5px 10px;
     outline: none;
@@ -110,11 +127,18 @@
     height: 5rem;
     width: 500px;
 }
-.btn-download{
+
+.btn-download {
     padding: 10px 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
-.btn-download, 
+
+.btn-download:hover {
+    background-color: #0069b9;
+}
+
+.btn-download,
 .img,
 .small {
     font-weight: bold;
@@ -124,25 +148,31 @@
     outline: none;
 }
 
+
 .screen-mac {
     width: 800px;
     border-radius: 12px;
 }
-.alternative-sub-link a{
+
+.alternative-sub-link a {
     text-decoration: underline;
     color: #0078d4;
 }
-.alternative-sub-link span{
+
+.alternative-sub-link span {
     color: gray;
 }
-.terms{
-    font-size:  small;
+
+.terms {
+    font-size: small;
     color: #9ba3b4;
 }
-.terms a{
+
+.terms a {
     color: #0078d4;
     text-decoration: underline;
 }
-.bg-clr{
+
+.bg-clr {
     background-color: none;
 }
